@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+body{
+    background-color: wheat;
+}
+#main-div{
+    width: 50%;
+    /* height: 100vh; */
+    margin: 0 auto;
+    height: 100px;
+    color: gray;
+}
+.heading{
+    font-size: 25px;
+    font-weight: normal;
+    font-family: sans-serif;
+    margin-left: 40%;
+    padding: 1%;
+}
+  /* ......description....... */
+.description{
+    width: 100%;
+    height: 70%;
+    border-top: 1px solid grey;
+}
+.desc-content{
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 6px;
+}
+.description span{
+    font-weight: 600;
+}
+#desc-text{
+    width: 100%;
+    height: 25px;
+    border: none;
+}
+ /* ......Category and Date....... */
+ .cat-date{
+     width: 100%;
+     display: flex;
+     border-top: 1px solid black;
+     height: 80%;
+ }
+ .category{
+     width: 50%;
+     border-right: 1px solid black;
+     height: 100%;
+ }
+ .cat{
+     margin-left: 4%;
+     margin-top: 10px;
+ }
+ .cat select option{
+     color: lightgray;
+ }
+ .opt:hover{
+     background-color: purple;
+ }
+ .cat span{
+     font-size: 15px;
+     font-weight: 600;
+ }
+ #select-options{
+     width: 90%;
+     height: 25px;
+     margin-top: 1%;
+     border: none;
+ }
+  /* .......DATE......  */
+  .date{
+      width: 50%;
+  }
+  .date-desc{
+      width: 90%;
+      margin-left: 3%;
+      margin-top: 3%;
+  }
+  .date-desc h1{
+      font-size: 16px;
+  }
+  .date-desc input{
+      width: 100%;
+      border: none;
+      height: 25px;
+  }
+  /* .......Buttons....... */
+  .buttons{
+      width: 100%;
+      border-top: 1px solid black;
+      display: flex;
+  }
+  .add-button{
+      margin-left: 28%;
+      margin-top: 2.5%;
+      margin-bottom: 2.5%;
+  }
+  .add-button button{
+      height: 50px;
+      width: 150px;
+      padding: 10px;
+      background-color: tan;       /* button pr color */
+  }
+  .add-button button i{
+      font-size: 20px;
+      background-color: tan;
+  }
+  .add-button button span{
+      font-size: 15px;
+      margin-left: 5px;
+      background-color: tan;
+  }
+  .delete-button{
+      margin-left: 19%;
+      margin-top: 13%;
+  }
+  .delete-button button{
+      width: 150px;
+    height: 50px;
+    padding: 10px;
+    background-color:red;  
+  }
+  .delete-button button i{
+    font-size: 20px;
+    background-color:red;
+    color: white;
+  }
+  .delete-button span{
+    font-size: 15px;
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+  }
+   /* create list */
+
+.create-list{
+    width: 100%;
+    height: 70%;
+    border-top: 1px solid black;
+    display: flex;
+}
+.checkbox{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.checkbox input{
+    width: 18px;
+    height: 18px;
+}
+.list-desc{
+    width: 75%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.list-desc h1{
+    font-size: 17px;
+}
+.date-list{
+    margin-top: 6px;
+}
+.date-list i{
+    margin-right: 8px;
+    font-size: 20px;
+}
+.list-cat{
+    margin-top: 1.5%;
+}
+.box{
+    width: 100px;
+    height: 45px;
+    background-color: coral;
+    position: relative;
+}
+.box-text{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 20px;
+    background-color: coral;
+    margin-top: 10px;
+    color: white;
+}
